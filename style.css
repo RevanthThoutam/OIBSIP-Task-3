@@ -1,0 +1,88 @@
+.wrapper{
+    background-color: #1B1A17;
+    position: absolute;
+    width: 500px;
+    padding: 70px 40px;
+    left: 50%;
+    top: 50%;
+    box-shadow: 10px 15px 20px red;
+    border-radius: 8px;
+    transform: translate(-50%, -50%);
+}
+
+body{
+    background-color: white;
+}
+
+h1{
+    margin-top: 5px;
+    margin-left: 25px;
+    margin-bottom: 50px;
+    padding: 5px; 
+    color: white;
+    font-size: 40px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+label{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+    font-weight:700;
+    color: white;
+}
+
+.input{
+    padding: 6px;
+    outline: none;
+    margin-left: 25px;
+    border: 1px solid white;
+    border-radius: 6px;
+}
+
+select{
+    padding: 6px;
+    outline: none;
+    margin-bottom: 25px;
+    border: 1px solid white;
+    border-radius: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: 700;
+}
+
+.submit{
+    border-radius: 6px;
+    outline: none;
+    background-color: transparent;
+    padding: 6px;
+    margin-bottom: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    border: 2px solid white;
+    color:white;
+    font-weight: 700;
+}
+
+.submit:hover{
+    background-color: red;
+    color: white;
+}
+
+.output{
+    font-size: large;
+    font-family: 'Arial Narrow Bold', sans-serif;
+    color: white;
+    font-weight: 500;
+}
+
+.container {
+    width: 200px;
+    height: 120px;
+    position: absolute;
+  bottom: 100px;
+  right: 16px;
+}
+
+.container img {
+    width: 100%;
+    height: auto;
+    
+}
